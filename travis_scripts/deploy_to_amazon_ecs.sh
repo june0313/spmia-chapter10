@@ -4,3 +4,4 @@ ecs-cli configure profile --profile-name "default" --access-key $AWS_ACCESS_KEY 
 ecs-cli configure --cluster spmia-tmx-dev --default-launch-type EC2 --region ap-northeast-2 --config-name default
 ecs-cli compose --file docker/aws-dev/docker-compose.yml up
 rm -rf ~/.ecs
+#
